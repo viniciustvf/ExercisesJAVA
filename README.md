@@ -6,3 +6,5 @@
 2 - That simple code calculate age and days of life of an individue.
 
 3 - In that exercise, i learned more of print formated in Java.
+
+4 - I learned a litle about the Math class in Java.
