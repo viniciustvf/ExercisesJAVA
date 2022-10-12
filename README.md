@@ -12,3 +12,5 @@
 5 - That code read initial and final time and show total time of a game.
 
 6 - Read the product code and quantity and show the final price.
+
+7 - Reads fuel types and show the amount of preferences.
