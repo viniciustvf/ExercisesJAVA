@@ -1,5 +1,5 @@
 # Exercises in Java
- Exercises in Java
+ Exercises in Java (to practice)
 
 1 - The program calculate situation and students grade average.
 
