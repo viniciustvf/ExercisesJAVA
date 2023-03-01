@@ -28,3 +28,5 @@
 13 - Simulation of transactions in a bank, such as deposit and withdraw. I used encapsulation techniques.
 
 14 - Vector exercise where i store tenant data in vectors corresponding to rooms.
+
+15 - My first exercise with compositions and enums. Control orders and order items.
