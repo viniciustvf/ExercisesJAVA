@@ -41,6 +41,7 @@ public class main {
                         String letra = sc.next();
                         while (!"a".equals(letra)) {
                             System.out.println("Aperte (a)");
+                            letra = sc.next();
                         }
                         int pontos = jogadores[i].jogar();
                         jogadores[i].setCasaAtual(pontos);
