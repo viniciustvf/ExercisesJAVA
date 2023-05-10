@@ -32,3 +32,5 @@
 15 - My first exercise with compositions and enums. Control orders and order items.
 
 16 - Board game with two players and 20 steps.
+
+17 - Exercise I did to practice abstract methods.
