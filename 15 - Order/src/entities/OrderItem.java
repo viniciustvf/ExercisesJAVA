@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package entities;
 
 public class OrderItem {
@@ -49,3 +50,56 @@ public class OrderItem {
                 + " ,Subtotal: " + String.format("%.2f", subTotal());
     }
 }
+=======
+package entities;
+
+public class OrderItem {
+    private Integer quantity;
+    private Double price;
+    
+    private Product product;
+
+    public OrderItem() {
+    }
+
+    public OrderItem(Integer quantity, Double price, Product product) {
+        this.quantity = quantity;
+        this.price = price;
+        this.product = product;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+    
+    public Double subTotal(){
+        return price*quantity;
+    }
+    
+    @Override
+    public String toString(){
+        return  product + ", " + String.format("%.2f", price) + ", Quantity: " + quantity
+                + " ,Subtotal: " + String.format("%.2f", subTotal());
+    }
+}
+>>>>>>> 6dee2d66686813728fb5980e145b925adced9452

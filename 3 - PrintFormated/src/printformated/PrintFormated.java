@@ -27,5 +27,4 @@ public class PrintFormated {
         Locale.setDefault(Locale.US);
         System.out.printf("US decimal places: %.3f%n",measure);
     } 
-    
 }

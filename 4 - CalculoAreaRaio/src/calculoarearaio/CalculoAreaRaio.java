@@ -16,5 +16,6 @@ public class CalculoAreaRaio {
         double area = Math.PI * raio2;
         
         System.out.printf("AREA: %.4f ", area);
+        
     }
 }

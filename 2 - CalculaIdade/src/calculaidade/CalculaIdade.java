@@ -38,5 +38,4 @@ public class CalculaIdade {
        
         System.out.print("Em dias, você está vivo à: " + diasdevida + " dias.");
     }
-    
 }
